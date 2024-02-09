@@ -196,7 +196,7 @@ section .title::after{
     color: #8c8c8c;
     font-weight: 500;
 }
-.home .home-content a{
+/*.home .home-content a{
     display: inline-block;
     background: #fff;
     color: #000;
@@ -211,7 +211,7 @@ section .title::after{
 .home .home-content a:hover{
     color: #8c8c8c;
     background: none;
-}
+}*/
 
 /* about section styling */
 .about .title::after{
@@ -797,3 +797,45 @@ footer span a:hover{
   background: #00ff2f;
   color: #ffffff;
 }
+
+
+.main-button{
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    transition: background 0.5s;
+  }
+  .main-button:first-child:hover{
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+  }
+  .main-button:last-child:hover{
+    background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
+    background-size: 400%;
+  }
+
+  .main-button:first-child:hover:before,
+  .main-button:last-child:hover:before{
+    opacity: 1;
+    z-index: -1;
+  }
+  .main-button:hover{
+    color: #fff;
+    z-index: 1;
+    animation: glow 8s linear infinite;
+  }
+  @keyframes glow {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 400%;
+    }
+  }
