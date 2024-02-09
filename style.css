@@ -107,8 +107,14 @@ section .title::after{
         0 0 80px #0bf4f3;
 }
 .navbar .logo a span{
-    color: rgb(0, 255, 255);
+    color: rgb(0, 255, 0);
     transition: all 0.3s ease;
+    text-shadow: 
+        0 0 5px #00f400,
+        0 0 10px #0bf400,
+        0 0 20px #0bf400,
+        0 0 40px #0bf400,
+        0 0 80px #0bf400;
 }
 .navbar.sticky .logo a span{
     color: #fff;
