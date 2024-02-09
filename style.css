@@ -122,6 +122,12 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+    text-shadow: 
+        0 0 5px #0bf4f3,
+        0 0 10px #0bf4f3,
+        0 0 20px #0bf4f3,
+        0 0 40px #0bf4f3,
+        0 0 80px #0bf4f3;
 }
 .navbar .menu li a{
     display: block;
