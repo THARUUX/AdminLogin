@@ -110,11 +110,11 @@ section .title::after{
     color: rgb(200, 255, 200);
     transition: all 0.3s ease;
     text-shadow: 
-        0 0 5px #00f400,
-        0 0 10px #0bf400,
-        0 0 20px #0bf400,
-        0 0 40px #0bf400,
-        0 0 80px #0bf400;
+        0 0 5px #0bf4f3,
+        0 0 10px #0bf4f3,
+        0 0 20px #0bf4f3,
+        0 0 40px #0bf4f3,
+        0 0 80px #0bf4f3;
 }
 .navbar.sticky .logo a span{
     color: #fff;
