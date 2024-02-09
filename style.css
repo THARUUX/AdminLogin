@@ -99,9 +99,15 @@ section .title::after{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
+    text-shadow: 
+        0 0 5px #0bf4f3,
+        0 0 10px #0bf4f3,
+        0 0 20px #0bf4f3,
+        0 0 40px #0bf4f3,
+        0 0 80px #0bf4f3;
 }
 .navbar .logo a span{
-    color: rgb(55, 255, 0);
+    color: rgb(0, 255, 255);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
