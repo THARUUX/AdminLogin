@@ -28,7 +28,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -183,7 +183,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("Picsart_23-10-09_00-24-30-121\ \(1\).jpg") no-repeat center;
+    background: url("Images/Picsart_23-10-09_00-24-30-121\ \(1\).jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -323,6 +323,16 @@ section .title::after{
 
 /* skills section styling */
 
+.stack img{
+    cursor: pointer;
+    transition: 300ms;
+    scale: 1;
+}
+
+.stack img:hover{
+    scale: 1.1;
+}
+
 .skills .title::after{
     content: "what i know";
 }
@@ -381,22 +391,22 @@ section .title::after{
     background: #000;
 }
 .skills-content .right .html::before{
-    width: 95%;
+    width: 98%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 98%;
 }
 .skills-content .right .js::before{
-    width: 20%;
+    width: 70%;
 }
 .skills-content .right .react::before{
-    width: 10%;
+    width: 80%;
 }
 .skills-content .right .bootstrap::before{
     width: 80%;
 }
 .skills-content .right .angular::before{
-    width: 5%;
+    width: 1%;
 }
 .skills-content .right .jquery::before{
     width: 5%;
@@ -411,12 +421,82 @@ section .title::after{
     width: 10%;
 }
 .skills-content .right .csharp::before{
-    width: 30%;
+    width: 5%;
+}
+.skills-content .right .mongodb::before{
+    width: 70%;
+}
+.skills-content .right .nodejs::before{
+    width: 90%;
+}
+.skills-content .right .nextjs::before{
+    width: 90%;
+}
+.skills-content .right .tailwindcss::before{
+    width: 80%;
 }
 
+
+/* Works section styling */
+
+.testimonial .title::before{
+    width: 230px !important;
+    background-color: white;
+}
+.testimonial .title::after{
+    content: "previous projects";
+    background-color: #000000;
+}
+
+.testimonial .responsive .block{
+    background-color:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px) brightness(0.5);
+}
+
+.testimonial .block img{
+    scale: 1;
+}
+
+.testimonial .block img:hover{
+    position: relative;
+    scale: 1.1;
+}
+
+.group:hover .group-hover\:bottom-0 {
+    bottom: 0px;
+  }
+  
+  .group:hover .group-hover\:scale-\[0\.90\] {
+    --tw-scale-x: 0.90;
+    --tw-scale-y: 0.90;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 1;
+  }
+  
+  .group:hover .group-hover\:blur-sm {
+    --tw-blur: blur(4px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+  
+  .group:focus .group-focus\:right-0 {
+    right: 0px;
+  }
+  
+  .group:focus .group-focus\:opacity-100 {
+    opacity: 1;
+  }
+  
+
 /* teams section styling */
+.teams .title::before{
+    width: 250px;
+}
 .teams .title::after{
-    content: "View Gallery";
+    content: "As a music producer";
+    text-wrap: nowrap;
 }
 .teams .carousel .card{
     background: #222;
@@ -445,8 +525,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 330px;
-    width: 330px;
+    width: 100%;
     object-fit: cover;
     /*border-radius: 50%;*/
     border: 0px solid #8c8c8c;
@@ -578,6 +657,9 @@ footer{
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 10;
 }
 footer span a{
     color: #8c8c8c;

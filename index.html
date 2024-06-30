@@ -20,6 +20,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
 
     <link rel="shortcut icon" href="20230815_083942.png" type="image/x-icon">
 
@@ -29,14 +34,14 @@
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
-        <div class="max-width">
+        <div class="max-width" data-aos="fade-down" data-aos-duration="1000">
             <div class="logo"><a href="#">THARUU<span>X</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#services" class="menu-btn">Intro</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Gallery</a></li>
+                <!--<li><a href="#teams" class="menu-btn">Gallery</a></li>-->
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -46,29 +51,29 @@
     </nav>
 
     <!-- home section start -->
-    <section class="home" id="home">
+    <section class="home" id="home" data-aos="fade-in" data-aos-duration="3000">
         <div class="max-width">
-            <div class="home-content">
+            <div class="home-content" data-aos="fade-right" data-aos-duration="1000">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">THARUSHA DAMSARA</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="https://www.facebook.com/profile.php?id=100080300431379&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" class="main-button">Find More On FB</a>
+                <a href="https://www.facebook.com/tharuux/" target="_blank" rel="noopener noreferrer" class="main-button">Find More On FB</a>
             </div>
         </div>
     </section>
 
     <!-- about section start -->
-    <section class="about" id="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
+    <section class="about" id="about" >
+        <div class="max-width" data-aos="fade-in" data-aos-duration="1000">
+            <h2 class="title" data-aos="fade-up" data-aos-duration="500">About me</h2>
             <div class="about-content">
-                <div class="column left">
-                    <img src="Picsart_23-11-02_18-56-42-926.png" alt="tharuux">
+                <div class="column left" data-aos="fade-in" data-aos-duration="1000">
+                    <img src="Images/Picsart_23-11-02_18-56-42-926.png" alt="tharuux">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Tharuux and I'm a <span class="typing-2"></span></div>
-                    <p>I entered this world on the 21st of December 2006, marking my current age at 17. Having successfully completed my G.C.E O/L Examination, I find myself drawn to diverse fields such as System Development, Cybersecurity, Western and Traditional Music Instruments, Graphic Designing, Photography, Videography, and more. Sinhala is my mother language, and I proudly identify as a Sri Lankan Buddhist, seeking to navigate life's journey with grace and purpose.</p>
-                    <a href="#">Follow Me</a>
+                    <div class="text" data-aos="fade-up" data-aos-duration="1000">I'm Tharuux and I'm a <span class="typing-2"></span></div>
+                    <p data-aos="fade-up" data-aos-duration="1000">I was born on December 21, 2006, currently aged 17, having completed my G.C.E O/L Examination and currently pursuing A/L in the tech stream. I am passionately drawn to diverse fields such as Web Development, Cybersecurity, Music Production, Western and Traditional Music Instruments, Graphic Designing, Photography, and Videography. Problem-solving is a favorite pursuit in my programming endeavors; I find great satisfaction in debugging and completing projects. With 4 years of experience in web development, I am an avid supporter of open-source initiatives and proficient in mobile and computer repair. My primary source of learning is the Internet.</p>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1000">Follow Me</a>
                 </div>
             </div>
         </div>
@@ -76,25 +81,25 @@
 
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">Intoduction</h2>
+            <h2 class="title" data-aos="fade-up" data-aos-duration="500">Intoduction</h2>
             <div class="serv-content">
-                <div class="card">
+                <div class="card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
                     <div class="box">
                         <i class="fas fas fa-briefcase"></i>
                         <div class="text">WORKS AT</div>
                         <p>I am currently working at <a href="neo.lk">Neo Graphics Pvt Ltd</a>, where I am involved in developing web pages and providing technical support.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fas fa-magic"></i>
-                        <div class="text">Hobbies</div>
-                        <p>My interests span a diverse spectrum, encompassing system development, cyber security, proficiency in Western and Traditional Music Instruments, graphic designing, photography, videography, music producing, and more. I find fulfillment and joy in cultivating a wide range of skills and creative pursuits.</p>
-                    </div>
-                </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000">
                     <div class="box">
                         <i class="fas fa-code"></i>
+                        <div class="text">What I Do for Clients</div>
+                        <p>As a web developer, I create digital solutions that not only meet but exceed the expectations of my clients. My core stack, which includes React (Next.js), Tailwind CSS, Node.js, and MongoDB, allows me to deliver robust, efficient, and scalable applications with seamless functionality and captivating design.</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000">
+                    <div class="box">
+                        <i class="fas fa-magic"></i>
                         <div class="text">SKILLS</div>
                         <p>I possess proficiency in programming and IT (Specially Web Developing), showcasing a versatile skill set that encompasses these areas with competence and dedication.</p>
                     </div>
@@ -104,114 +109,201 @@
         </div>
     </section>
     <section class="u-border-2 u-border-black u-border-no-bottom u-border-no-left u-border-no-right u-clearfix u-section-5" id="carousel_2fc7">
-        <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
-          <div class="u-align-right u-container-style u-grey-10 u-group u-group-1">
+        <div class="u-clearfix max-width u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+          <div class="u-align-right u-container-style u-grey-10 u-group u-group-1" data-aos="fade-right" data-aos-duration="1000">
             <div class="u-container-layout u-valign-middle u-container-layout-1">
-              <h3 class="u-text u-text-1">graphic Design</h3>
+              <h3 class="u-text u-text-1" >graphic Design</h3>
             </div>
           </div>
-          <p class="u-align-right u-text u-text-2"> I specialize in the design of graphical user interfaces (GUI) as well as the creation of visually compelling posters and other related materials. My expertise lies in crafting aesthetically pleasing and effective visual elements, contributing to a seamless and engaging user experience.</p>
-          <div class="u-align-right u-black u-container-style u-group u-group-2">
+          <p class="u-align-right u-text u-text-2" data-aos="fade-right" data-aos-duration="1000"> I specialize in the design of graphical user interfaces (GUI) as well as the creation of visually compelling posters and other related materials. My expertise lies in crafting aesthetically pleasing and effective visual elements, contributing to a seamless and engaging user experience.</p>
+          <div class="u-align-right u-black u-container-style u-group u-group-2" data-aos="fade-left" data-aos-duration="1000">
             <div class="u-container-layout u-valign-middle u-container-layout-2">
-              <h3 class="u-align-left u-text u-text-3">Photography</h3>
+              <h3 class="u-align-left u-text u-text-3" >Photography</h3>
             </div>
           </div>
-          <p class="u-align-left u-text u-text-4"> I harbor a keen interest in the art of photography, and I am currently in the process of cultivating and refining my skills in this captivating medium. My ongoing journey involves a dedicated pursuit of knowledge and expertise in the realm of photography.</p>
-          <div class="u-align-right u-container-style u-grey-15 u-group u-group-3">
+          <p class="u-align-left u-text u-text-4" data-aos="fade-left" data-aos-duration="1000"> I harbor a keen interest in the art of photography, and I am currently in the process of cultivating and refining my skills in this captivating medium. My ongoing journey involves a dedicated pursuit of knowledge and expertise in the realm of photography.</p>
+          <div class="u-align-right u-container-style u-grey-15 u-group u-group-3" data-aos="fade-right" data-aos-duration="1000">
             <div class="u-container-layout u-valign-middle u-container-layout-3">
-              <h3 class="u-text u-text-5">Website Design</h3>
+              <h3 class="u-text u-text-1" >Website Design</h3>
             </div>
           </div>
-          <p class="u-align-right u-text u-text-6"> I possess proficiency in HTML, CSS, JS, PHP, and SQL, showcasing my expertise in both front-end and nascent back-end web development. While I am adept at handling front-end tasks, I am actively engaged in continuous learning to further strengthen my capabilities in back-end development.</p>
+          <p class="u-align-right u-text u-text-6" data-aos="fade-right" data-aos-duration="1000"> I possess proficiency in HTML, CSS, JS, PHP, SQL, React(Next JS), Node JS and  Mongo DB, showcasing my expertise in both front-end and nascent back-end web development. While I am adept at handling front-end tasks, I am actively engaged in continuous learning to further strengthen my capabilities in back-end development.</p>
         </div>
       </section>
 
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <h2 class="title" data-aos="fade-up" data-aos-duration="500">My skills</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>I possess proficiency in programming and IT, showcasing a versatile skill set that encompasses these areas with competence and dedication.</p>
+                    <div class="text" data-aos="fade-right" data-aos-duration="1000">My developing skills & experiences.</div>
+                    <p data-aos="fade-right" data-aos-duration="1000">I possess proficiency in programming and IT, showcasing a versatile skill set that encompasses these areas with competence and dedication.</p>
                     <!--<a href="#">Read more</a>-->
+                    <div class="stack flex gap-10 w-100 justify-center mt-24">
+                        <img data-aos="fade-up" data-aos-duration="500" class="" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/react/react-original-wordmark.svg" title="React JS" width="50" alt="">
+                        <img data-aos="fade-up" data-aos-duration="1000" class="" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nextjs/nextjs-original-wordmark.svg" title="Next Js" width="50" alt="">
+                        <img data-aos="fade-up" data-aos-duration="1500" class="" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nodejs/nodejs-original-wordmark.svg" title="Node JS" width="50" alt="">
+                        <img data-aos="fade-up" data-aos-duration="2000" class="" src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mongodb/mongodb-original-wordmark.svg" title="Mongo DB" width="50" alt="">
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="3000" class="stack-tit w-100 justify-center flex mt-5 text-gray-700">Core Stack</div>
                 </div>
                 <div class="column right">
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
                             <span>HTML</span>
-                            <span>95%</span>
+                            <span>Using 98%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
-                    <div class="bars">
-                        <div class="info">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="info" >
                             <span>CSS</span>
-                            <span>60%</span>
+                            <span>Using 98%</span>
                         </div>
                         <div class="line css"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
-                            <span>JavaScript</span>
-                            <span>20%</span>
+                            <span>Next JS</span>
+                            <span>Using 90%</span>
                         </div>
-                        <div class="line js"></div>
+                        <div class="line nextjs"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
-                            <span>React</span>
-                            <span>10%</span>
+                            <span>Node JS</span>
+                            <span>Using 90%</span>
                         </div>
-                        <div class="line react"></div>
+                        <div class="line nodejs"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
+                        <div class="info">
+                            <span>Tailwind CSS</span>
+                            <span>Using 80%</span>
+                        </div>
+                        <div class="line tailwindcss"></div>
+                    </div>
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
                             <span>Bootstrap</span>
-                            <span>80%</span>
+                            <span>Using 80%</span>
                         </div>
                         <div class="line bootstrap"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
-                            <span>Angular</span>
-                            <span>5%</span>
+                            <span>React</span>
+                            <span>Using 80%</span>
                         </div>
-                        <div class="line angular"></div>
+                        <div class="line react"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
-                            <span>Jquery</span>
-                            <span>5%</span>
+                            <span>Mongo DB</span>
+                            <span>Using 70%</span>
                         </div>
-                        <div class="line jquery"></div>
+                        <div class="line mongodb"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>Using 70%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
                             <span>PHP</span>
-                            <span>50%</span>
+                            <span>Using 50%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
                             <span>SQL</span>
-                            <span>70%</span>
+                            <span>Using 50%</span>
                         </div>
                         <div class="line mysql"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
                             <span>Python</span>
-                            <span>10%</span>
+                            <span>Using 10%</span>
                         </div>
                         <div class="line python"></div>
                     </div>
-                    <div class="bars">
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
+                        <div class="info">
+                            <span>Jquery</span>
+                            <span>Using 5%</span>
+                        </div>
+                        <div class="line jquery"></div>
+                    </div>
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
                         <div class="info">
                             <span>C#</span>
-                            <span>30%</span>
+                            <span>Using 5%</span>
                         </div>
                         <div class="line csharp"></div>
+                    </div>
+                    <div class="bars" data-aos="fade-left" data-aos-duration="1000" >
+                        <div class="info">
+                            <span>Angular</span>
+                            <span>Using 1%</span>
+                        </div>
+                        <div class="line angular"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial" class="testimonial bg-black mt-0">
+        <div class="max-width mx-auto py-16 px-4">
+            <div class="text-center md:w-1/2 m-auto mb-10">
+                <h2 class="title text-white" data-aos="fade-up" data-aos-duration="500">My Projects</h2>
+            </div>
+            <div class="responsive group flex flex-wrap w-100 justify-center">
+                <div class="p-3" data-aos="fade-in" data-aos-duration="1000">
+                    <div class="block max-w-xl rounded-lg p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-950 cursor-pointer">
+                        <div class="text-center relative">
+                            <h4 class="text-gray-900 mb-5 dark:text-white font-bold text-xl tracking-tight mb-2">NEO CREATIVE</h4>
+                            <p class="text-gray-700 dark:text-gray-400 mb-5">Designed and developed an e-commerce site with an admin panel of Neo Graphics (Pvt) Ltd.</p>
+                            <div class="overflow-hidden mb-8 rounded-md">
+                                <img class="rounded-md ease-in-out duration-300" src="https://raw.githubusercontent.com/THARUUX/neo-site/main/Assets/ss.png" alt="">
+                            </div>
+                            <div class="stack flex flex-wrap gap-3">
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">React</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">MONGODB</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">Next.Js</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">Node.Js</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">Tailwind CSS</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">AOS</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">Animate.css</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3" data-aos="fade-in" data-aos-duration="1000">
+                    <div class="block max-w-xl rounded-lg p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-100 transition duration-950 cursor-pointer">
+                        <div class="text-center relative">
+                            <h4 class="text-gray-900 mb-5 dark:text-white font-bold text-xl tracking-tight mb-2">CUSTOM TSHIRTS LK</h4>
+                            <p class="text-gray-700 dark:text-gray-400 mb-5">Designed and developed an e-commerce site for an event of Neo Graphics (Pvt) Ltd.</p>
+                            <div class="overflow-hidden mb-8 rounded-md">
+                                <img class="rounded-md ease-in-out duration-300" src="https://github.com/THARUUX/neo-tshirt-frontend/blob/main/Screenshot_20240615_192918.png?raw=true" alt="">
+                            </div>
+                            <div class="stack flex flex-wrap gap-3">
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">HTML</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">CSS</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">JavaScript</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">PHP</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">MySQL</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">Bootstrao</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">Jquery</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">AOS</button>
+                                <button class="btn text-gray-300 rounded-full px-5 py-1 text-sm font-thin center bg-black/40">Animate.css</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -219,58 +311,59 @@
     </section>
 
     <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title" onclick="window.open('gallery.html', '_self')" style="cursor: pointer;">Gallery</h2>
-            <div class="carousel owl-carousel">
+        <div class="max-width min-h-96">
+            <!--<h2 class="title" onclick="window.open('gallery.html', '_self')" style="cursor: pointer;">Other works</h2>-->
+            <h2 class="title" style="cursor: pointer;" onclick="window.open('https://www.youtube.com/@tharuux_yt/')" data-aos="fade-up" data-aos-duration="500">Other works</h2>
+            <div class="carousel owl-carousel mt-20">
                 <div class="card">
                     <div class="box">
-                        <img src="Picsart_23-11-02_18-56-42-926.png" alt="tharuux">
+                        <img onclick="window.open('https://youtu.be/2M6A_fz3GnM?si=Ei0nLZseclm0-vGn')" src="Images/20240617_193529.jpg" alt="tharuux">
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="20231231_145943.jpg" alt="tharuux">
+                        <img onclick="window.open('https://youtu.be/x8nwZvtf04s?si=GPUM4ZGjcCXnUkKL')" src="Images/20240517_034639.jpg" alt="tharuux">
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="DSC_1338.jpg" alt="tharuux">
+                        <img onclick="window.open('https://youtu.be/c25hdnATJqQ?si=OOBu811BbWj4OZUP')" src="Images/20240517_023057.jpg" alt="tharuux">
+                    </div>
+                </div>
+                <!--<div class="card">
+                    <div class="box">
+                        <img src="Images/Picsart_23-10-09_00-24-30-121 (1).jpg" alt="tharuux">
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Picsart_23-10-09_00-24-30-121 (1).jpg" alt="tharuux">
+                        <img src="Images/Picsart_23-11-01_20-19-24-783.jpg" alt="tharuux">
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Picsart_23-11-01_20-19-24-783.jpg" alt="tharuux">
+                        <img src="Images/Picsart_23-12-31_19-32-57-852.jpg" alt="tharuux">
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Picsart_23-12-31_19-32-57-852.jpg" alt="tharuux">
+                        <img src="Images/Picsart_24-01-18_02-31-27-510.jpg" alt="tharuux">
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="Picsart_24-01-18_02-31-27-510.jpg" alt="tharuux">
+                        <img src="Images/Picsart_24-01-21_16-43-18-748.jpg" alt="tharuux">
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="Picsart_24-01-21_16-43-18-748.jpg" alt="tharuux">
-                    </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>
 
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title" data-aos="fade-up" data-aos-duration="500">Contact me</h2>
             <div class="contact-content">
-                <div class="column left">
+                <div class="column left" data-aos="fade-right" data-aos-duration="1000">
                     <div class="text">Get in Touch</div>
                     <p></p>
                     <div class="icons">
@@ -295,36 +388,43 @@
                                 <div class="sub-title">tharuuxofc@gmail.com</div>
                             </div>
                         </div>
+                        <div class="row">
+                            <i class="fas fa-phone"></i>
+                            <div class="info">
+                                <div class="head">Phone Number</div>
+                                <div class="sub-title">+94 789 731 507</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Follow Me On Social Media</div>
+                    <div class="text" data-aos="fade-in" data-aos-duration="1000">Follow Me On Social Media</div>
                     <ul class="wrapper">
-                        <a href="https://facebook.com/profile.php?id=100080300431379">
+                        <a href="https://facebook.com/THARUUX" data-aos="fade-up" data-aos-delay="0" data-aos-duration="2000">
                         <li class="icon facebook">
                           <span class="tooltip">Facebook</span>
                           <span><i class="fab fa-facebook-f"></i></span>
                         </li>
                         </a>
-                        <a href="https://x.com/tharuu_x?t=VtmKejkIUJFS29Spzz_DbA&S=09">
+                        <a href="https://x.com/tharuu_x?t=VtmKejkIUJFS29Spzz_DbA&S=09" data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000">
                         <li class="icon twitter">
                           <span class="tooltip">Twitter</span>
                           <span><i class="fab fa-twitter"></i></span>
                         </li>
                         </a>
-                        <a href="https://instagram.com/tharuuxofc">
+                        <a href="https://instagram.com/tharuuxofc" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000">
                         <li class="icon instagram">
                           <span class="tooltip">Instagram</span>
                           <span><i class="fab fa-instagram"></i></span>
                         </li>
                         </a>
-                        <a href="https://github.com/THARUUX">
+                        <a href="https://github.com/THARUUX" data-aos="fade-up" data-aos-delay="1500" data-aos-duration="2000">
                         <li class="icon github">
                           <span class="tooltip">Github</span>
                           <span><i class="fab fa-github"></i></span>
                         </li>
                         </a>
-                        <a href="https://wa.me/94789731507">
+                        <a href="https://wa.me/94789731507" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="2000">
                         <li class="icon whatsapp">
                           <span class="tooltip">WhatsApp</span>
                           <span><i class="fab fa-whatsapp"></i></span>
@@ -335,11 +435,15 @@
             </div>
         </div>
     </section>
+    
 
-    <footer>
-        <span>Created By <a href="">THARUUX</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    <footer class="py-10">
+        <span>Designed and developed By <a href="">THARUUX</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
